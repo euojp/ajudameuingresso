@@ -144,7 +144,7 @@ body:has([data-product-guide-index]) #sidebar a.nav-anchor[href='/'] svg {
 }
 
 img.nav-logo {
-  height: 24px !important;
+  height: 16px !important;
   width: auto !important;
   max-width: none;
 }
