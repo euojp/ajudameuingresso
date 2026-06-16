@@ -97,7 +97,8 @@
               "ajuda/termos-de-uso"
             ]
           }
-        ]
+        ],
+        "hidden": true
       }
     ]
   },
