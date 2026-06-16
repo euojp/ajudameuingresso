@@ -1,0 +1,88 @@
+{
+  "projectType": "saas",
+  "projectName": "Meu Ingresso",
+  "projectDescription": "Plataforma completa de venda de ingressos, inscrições e controle de acesso para organizadores de eventos e participantes em todo o Brasil.",
+  "theme": "almond",
+  "primaryColor": "#6c34ab",
+  "lightColor": "#f7f1d9",
+  "darkColor": "#ad7f74",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentação",
+        "groups": [
+          {
+            "group": "Introdução",
+            "pages": [
+              "introducao",
+              "primeiros-passos"
+            ]
+          },
+          {
+            "group": "Para Participantes",
+            "pages": [
+              "participantes/criando-conta",
+              "participantes/comprando-ingressos",
+              "participantes/meus-ingressos",
+              "participantes/qr-code-e-acesso"
+            ]
+          },
+          {
+            "group": "Para Organizadores",
+            "pages": [
+              "organizadores/visao-geral",
+              "organizadores/criando-evento",
+              "organizadores/tipos-de-ingressos",
+              "organizadores/checkout-personalizado",
+              "organizadores/controle-de-acesso",
+              "organizadores/relatorios-e-financeiro",
+              "organizadores/certificados-digitais",
+              "organizadores/email-marketing"
+            ]
+          },
+          {
+            "group": "Programa de Promotores",
+            "pages": [
+              "promotores/como-funciona",
+              "promotores/links-e-comissoes"
+            ]
+          },
+          {
+            "group": "Ajuda",
+            "pages": [
+              "ajuda/precos-e-taxas",
+              "ajuda/pagamentos-e-repasses",
+              "ajuda/faq",
+              "ajuda/politica-de-privacidade",
+              "ajuda/termos-de-uso"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Publicação de eventos em minutos (presencial, online ou híbrido)",
+    "Venda de ingressos com checkout seguro (PIX e cartão de crédito)",
+    "Check-in por QR Code via app iOS e Android",
+    "Dashboard em tempo real com vendas, participantes e financeiro",
+    "Antecipação de recebíveis sem custo adicional",
+    "Checkout personalizado com campos extras por evento",
+    "Mapa de assentos dinâmico",
+    "Múltiplas sessões e série de datas",
+    "Certificados digitais automáticos por participante",
+    "E-mail marketing integrado para comunicação com participantes",
+    "Gestão em equipe com permissões por colaborador",
+    "Programa de promotores com links exclusivos e comissões",
+    "Exportação de leads com um clique",
+    "Vitrine de organizadores (página pública do produtor)"
+  ],
+  "publicApiSurface": [
+    "GET /eventos — listagem pública de eventos",
+    "GET /vitrine/:slug — página pública do organizador",
+    "GET /api/v1/auth/oauth/google — OAuth via Google",
+    "GET /api/v1/auth/oauth/linkedin_oidc — OAuth via LinkedIn",
+    "POST /cadastro — criação de conta via e-mail",
+    "POST /login — autenticação via e-mail e senha"
+  ]
+}

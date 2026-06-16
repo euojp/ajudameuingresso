@@ -1,0 +1,108 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Meu Ingresso",
+  "description": "Plataforma completa de venda de ingressos, inscrições e controle de acesso para organizadores e participantes.",
+  "colors": {
+    "primary": "#6730a8",
+    "light": "#844dc6",
+    "dark": "#844dc6"
+  },
+  "favicon": "https://media.brand.dev/82777d83-90eb-4b05-a9ff-5b2471e803ea.jpg",
+  "logo": {
+    "light": "/images/MeuIngressologo-Mintlifyroxa.png",
+    "dark": "/images/MeuIngressologo-Mintlifybranca.png"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "contextual": {
+    "options": [
+      "assistant"
+    ]
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Publicar Evento",
+          "icon": "calendar-plus",
+          "href": "https://meuingresso.com.br/cadastro"
+        },
+        {
+          "anchor": "Explorar Eventos",
+          "icon": "ticket",
+          "href": "https://meuingresso.com.br/eventos"
+        }
+      ]
+    },
+    "directory": "card",
+    "groups": [
+      {
+        "group": "Introdução",
+        "icon": "rocket",
+        "expanded": true,
+        "pages": [
+          "introducao",
+          "primeiros-passos"
+        ]
+      },
+      {
+        "group": "Programa de Promotores",
+        "icon": "megaphone",
+        "expanded": true,
+        "pages": [
+          "promotores/como-funciona",
+          "promotores/links-e-comissoes"
+        ]
+      },
+      {
+        "group": "Ajuda",
+        "icon": "message-circle-question-mark",
+        "expanded": true,
+        "pages": [
+          "ajuda/faq",
+          "ajuda/pagamentos-e-repasses",
+          "ajuda/politica-de-privacidade",
+          "ajuda/termos-de-uso"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [],
+    "primary": {
+      "type": "button",
+      "label": "Publicar Evento",
+      "href": "https://meuingresso.com.br/cadastro"
+    }
+  },
+  "footer": {
+    "socials": {
+      "instagram": "https://instagram.com/meu.ingresso"
+    }
+  },
+  "fonts": {
+    "heading": {
+      "family": "Inter",
+      "weight": 700
+    },
+    "body": {
+      "family": "Inter",
+      "weight": 400
+    }
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/introducao",
+      "permanent": true
+    }
+  ]
+}
