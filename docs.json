@@ -71,6 +71,13 @@
           "ajuda/politica-de-privacidade",
           "ajuda/termos-de-uso"
         ]
+      },
+      {
+        "group": "Primeiros passos",
+        "icon": "smartphone-charging",
+        "pages": [
+          "primeiros-passos"
+        ]
       }
     ]
   },
