@@ -55,6 +55,14 @@
         ]
       },
       {
+        "group": "Pagamentos",
+        "icon": "credit-card",
+        "pages": [
+          "cancelamentos-e-reembolsos",
+          "trocar-titularidade-do-ingresso"
+        ]
+      },
+      {
         "group": "Ajuda",
         "icon": "message-circle-question-mark",
         "expanded": true,
@@ -62,14 +70,7 @@
           "ajuda/faq",
           "ajuda/pagamentos-e-repasses",
           "ajuda/politica-de-privacidade",
-          "ajuda/termos-de-uso",
-          {
-            "group": "Pagamentos",
-            "pages": [
-              "cancelamentos-e-reembolsos",
-              "trocar-titularidade-do-ingresso"
-            ]
-          }
+          "ajuda/termos-de-uso"
         ]
       }
     ]
