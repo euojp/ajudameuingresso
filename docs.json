@@ -48,7 +48,8 @@
         "group": "Primeiros passos",
         "icon": "smartphone-charging",
         "pages": [
-          "como-criar-uma-conta"
+          "como-criar-uma-conta",
+          "redefinicao-de-senha"
         ]
       },
       {
