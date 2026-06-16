@@ -143,13 +143,10 @@ body:has([data-product-guide-index]) #sidebar a.nav-anchor[href='/'] svg {
   }
 }
 
-img.nav-logo,
-#header img,
-#navbar img,
-header img[alt*="logo" i],
-a[href="/"] img {
-  height: 24px !important;
+img.nav-logo {
+  height: 20px !important;
   width: auto !important;
   max-width: none !important;
-  max-height: 24px !important;
+  max-height: 20px !important;
+  min-height: 0 !important;
 }
