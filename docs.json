@@ -81,6 +81,12 @@
           "ajuda/politica-de-privacidade",
           "ajuda/termos-de-uso"
         ]
+      },
+      {
+        "group": "Compras e inscrições",
+        "pages": [
+          "como-comprar-um-ingresso"
+        ]
       }
     ]
   },
