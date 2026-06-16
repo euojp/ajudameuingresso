@@ -68,6 +68,7 @@
         "group": "Pagamentos",
         "icon": "credit-card",
         "pages": [
+          "formas-de-pagamento",
           "cancelamentos-e-reembolsos",
           "trocar-titularidade-do-ingresso"
         ]
