@@ -28,11 +28,6 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Publicar Evento",
-          "icon": "calendar-plus",
-          "href": "https://meuingresso.com.br/cadastro"
-        },
-        {
           "anchor": "Explorar Eventos",
           "icon": "ticket",
           "href": "https://meuingresso.com.br/eventos"
