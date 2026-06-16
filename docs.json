@@ -45,6 +45,13 @@
         ]
       },
       {
+        "group": "Primeiros passos",
+        "icon": "smartphone-charging",
+        "pages": [
+          "como-criar-uma-conta"
+        ]
+      },
+      {
         "group": "Programa de Promotores",
         "icon": "megaphone",
         "expanded": true,
@@ -70,13 +77,6 @@
           "ajuda/pagamentos-e-repasses",
           "ajuda/politica-de-privacidade",
           "ajuda/termos-de-uso"
-        ]
-      },
-      {
-        "group": "Primeiros passos",
-        "icon": "smartphone-charging",
-        "pages": [
-          "primeiros-passos"
         ]
       }
     ]
