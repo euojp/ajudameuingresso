@@ -41,8 +41,7 @@
         "icon": "rocket",
         "expanded": true,
         "pages": [
-          "introducao",
-          "primeiros-passos"
+          "introducao"
         ]
       },
       {
