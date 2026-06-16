@@ -55,6 +55,14 @@
         ]
       },
       {
+        "group": "Compras e inscrições",
+        "icon": "credit-card",
+        "pages": [
+          "como-comprar-um-ingresso",
+          "compra-para-terceiros"
+        ]
+      },
+      {
         "group": "Programa de Promotores",
         "icon": "megaphone",
         "expanded": true,
@@ -80,13 +88,6 @@
           "ajuda/pagamentos-e-repasses",
           "ajuda/politica-de-privacidade",
           "ajuda/termos-de-uso"
-        ]
-      },
-      {
-        "group": "Compras e inscrições",
-        "pages": [
-          "como-comprar-um-ingresso",
-          "compra-para-terceiros"
         ]
       }
     ]
