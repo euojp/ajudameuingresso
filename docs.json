@@ -62,7 +62,13 @@
           "ajuda/faq",
           "ajuda/pagamentos-e-repasses",
           "ajuda/politica-de-privacidade",
-          "ajuda/termos-de-uso"
+          "ajuda/termos-de-uso",
+          {
+            "group": "Pagamentos",
+            "pages": [
+              "cancelamentos-e-reembolsos"
+            ]
+          }
         ]
       }
     ]
