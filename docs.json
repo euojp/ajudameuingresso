@@ -65,20 +65,20 @@
         ]
       },
       {
+        "group": "Pagamentos",
+        "icon": "credit-card",
+        "pages": [
+          "cancelamentos-e-reembolsos",
+          "trocar-titularidade-do-ingresso"
+        ]
+      },
+      {
         "group": "Programa de Promotores",
         "icon": "megaphone",
         "expanded": true,
         "pages": [
           "promotores/como-funciona",
           "promotores/links-e-comissoes"
-        ]
-      },
-      {
-        "group": "Pagamentos",
-        "icon": "credit-card",
-        "pages": [
-          "cancelamentos-e-reembolsos",
-          "trocar-titularidade-do-ingresso"
         ]
       },
       {
