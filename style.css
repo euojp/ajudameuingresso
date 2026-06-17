@@ -157,12 +157,3 @@ img.nav-logo {
     max-height: 26px !important;
   }
 }
-
-/* Ocultar seletor de idioma no header */
-#language-switcher,
-[id*="language-switcher"],
-[class*="language-switcher"],
-[aria-label*="language" i],
-[aria-label*="idioma" i] {
-  display: none !important;
-}
