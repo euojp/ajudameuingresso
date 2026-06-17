@@ -105,8 +105,8 @@
     "links": [],
     "primary": {
       "type": "button",
-      "label": "Publicar Evento",
-      "href": "https://meuingresso.com.br/cadastro"
+      "label": "Fale conosco",
+      "href": "https://api.whatsapp.com/send/?phone=554792797451&text=Ol%C3%A1%2C+vim+atrav%C3%A9s+do+site+Meu+Ingresso+e+gostaria+de+atendimento.&type=phone_number&app_absent=0"
     }
   },
   "footer": {
