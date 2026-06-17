@@ -26,79 +26,72 @@
   },
   "navigation": {
     "directory": "card",
-    "languages": [
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Explorar Eventos",
+          "icon": "ticket",
+          "href": "https://meuingresso.com.br/eventos"
+        }
+      ]
+    },
+    "groups": [
       {
-        "language": "pt-BR",
-        "default": true,
-        "global": {
-          "anchors": [
-            {
-              "anchor": "Explorar Eventos",
-              "icon": "ticket",
-              "href": "https://meuingresso.com.br/eventos"
-            }
-          ]
-        },
-        "groups": [
-          {
-            "group": "Introdução",
-            "icon": "rocket",
-            "expanded": true,
-            "pages": [
-              "introducao"
-            ]
-          },
-          {
-            "group": "Primeiros passos",
-            "icon": "smartphone-charging",
-            "pages": [
-              "como-criar-uma-conta",
-              "redefinicao-de-senha",
-              "como-atualizar-meus-dados-cadastrais",
-              "diferenca-entre-titular-da-compra-e-titular-do-ingresso"
-            ]
-          },
-          {
-            "group": "Compras e inscrições",
-            "icon": "credit-card",
-            "pages": [
-              "como-comprar-um-ingresso",
-              "compra-para-terceiros",
-              "como-usar-um-cupom-de-desconto",
-              "como-saber-se-minha-compra-foi-concluida"
-            ]
-          },
-          {
-            "group": "Pagamentos",
-            "icon": "credit-card",
-            "pages": [
-              "formas-de-pagamento",
-              "cancelamentos-e-reembolsos",
-              "trocar-titularidade-do-ingresso"
-            ]
-          },
-          {
-            "group": "Programa de Promotores",
-            "icon": "megaphone",
-            "expanded": true,
-            "pages": [
-              "promotores/como-funciona",
-              "promotores/links-e-comissoes"
-            ]
-          },
-          {
-            "group": "Ajuda",
-            "icon": "message-circle-question-mark",
-            "expanded": true,
-            "pages": [
-              "ajuda/faq",
-              "ajuda/pagamentos-e-repasses",
-              "ajuda/politica-de-privacidade",
-              "ajuda/termos-de-uso"
-            ]
-          }
-        ],
-        "hidden": true
+        "group": "Introdução",
+        "icon": "rocket",
+        "expanded": true,
+        "pages": [
+          "introducao"
+        ]
+      },
+      {
+        "group": "Primeiros passos",
+        "icon": "smartphone-charging",
+        "pages": [
+          "como-criar-uma-conta",
+          "redefinicao-de-senha",
+          "como-atualizar-meus-dados-cadastrais",
+          "diferenca-entre-titular-da-compra-e-titular-do-ingresso"
+        ]
+      },
+      {
+        "group": "Compras e inscrições",
+        "icon": "credit-card",
+        "pages": [
+          "como-comprar-um-ingresso",
+          "compra-para-terceiros",
+          "como-usar-um-cupom-de-desconto",
+          "como-saber-se-minha-compra-foi-concluida"
+        ]
+      },
+      {
+        "group": "Pagamentos",
+        "icon": "credit-card",
+        "pages": [
+          "formas-de-pagamento",
+          "cancelamentos-e-reembolsos",
+          "trocar-titularidade-do-ingresso"
+        ]
+      },
+      {
+        "group": "Programa de Promotores",
+        "icon": "megaphone",
+        "expanded": true,
+        "pages": [
+          "promotores/como-funciona",
+          "promotores/links-e-comissoes"
+        ]
+      },
+      {
+        "group": "Ajuda",
+        "icon": "message-circle-question-mark",
+        "expanded": true,
+        "pages": [
+          "ajuda/faq",
+          "ajuda/pagamentos-e-repasses",
+          "ajuda/politica-de-privacidade",
+          "ajuda/termos-de-uso"
+        ]
       }
     ]
   },
