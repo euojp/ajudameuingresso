@@ -68,7 +68,8 @@
               "como-saber-se-minha-compra-foi-concluida",
               "cancelamentos-e-reembolsos",
               "trocar-titularidade-do-ingresso"
-            ]
+            ],
+            "expanded": true
           },
           {
             "group": "Pagamento",
