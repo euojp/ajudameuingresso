@@ -84,7 +84,9 @@
           {
             "group": "Ingressos",
             "icon": "ticket",
-            "pages": []
+            "pages": [
+              "onde-encontro-meus-ingressos"
+            ]
           },
           {
             "group": "Programa de Promotores",
