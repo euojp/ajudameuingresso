@@ -65,16 +65,17 @@
               "como-comprar-um-ingresso",
               "compra-para-terceiros",
               "como-usar-um-cupom-de-desconto",
-              "como-saber-se-minha-compra-foi-concluida"
+              "como-saber-se-minha-compra-foi-concluida",
+              "cancelamentos-e-reembolsos",
+              "trocar-titularidade-do-ingresso"
             ]
           },
           {
-            "group": "Pagamentos",
+            "group": "Pagamento",
             "icon": "credit-card",
             "pages": [
               "formas-de-pagamento",
-              "cancelamentos-e-reembolsos",
-              "trocar-titularidade-do-ingresso"
+              "meu-pagamento-esta-pendente-o-que-fazer"
             ]
           },
           {
