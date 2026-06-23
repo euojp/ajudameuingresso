@@ -82,27 +82,86 @@
                   "onde-encontro-meus-ingressos"
                 ]
               },
+            "anchors": [
               {
-                "group": "Programa de Promotores",
-                "icon": "megaphone",
-                "expanded": true,
-                "pages": [
-                  "promotores/como-funciona",
-                  "promotores/links-e-comissoes"
-                ]
-              },
+                "anchor": "Explorar Eventos",
+                "icon": "ticket",
+                "href": "https://meuingresso.com.br/eventos"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Organizador",
+        "tabs": [
+          {
+            "tab": "Artigos",
+            "global": {
+              "anchors": [
+                {
+                  "anchor": "Explorar Eventos",
+                  "icon": "ticket",
+                  "href": "https://meuingresso.com.br/eventos"
+                }
+              ]
+            },
+            "anchors": [
               {
-                "group": "Ajuda",
-                "icon": "message-circle-question-mark",
-                "expanded": true,
+                "anchor": "Publicar evento",
+                "icon": "calendar-plus",
+                "href": "https://meuingresso.com.br/cadastro"
+              }
+            ]
+          },
+          {
+            "tab": "Atualizações",
+            "groups": [
+              {
+                "group": "Atualizações",
                 "pages": [
-                  "ajuda/faq",
-                  "ajuda/pagamentos-e-repasses",
-                  "ajuda/politica-de-privacidade",
-                  "ajuda/termos-de-uso"
+                  "site-web",
+                  "app-do-organizador"
                 ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "product": "Organizador",
+        "tabs": [
+          {
+            "tab": "Artigos",
+            "anchors": [
+              {
+                "anchor": "Explorar Eventos",
+                "icon": "ticket",
+                "href": "https://meuingresso.com.br/eventos"
+              },
+              {
+                "anchor": "Publicar evento",
+                "icon": "calendar-plus",
+                "href": "https://meuingresso.com.br/cadastro"
+              }
+            ]
+          },
+          {
+            "tab": "Atualizações",
+            "groups": [
+              {
+                "group": "Atualizações",
+                "pages": [
+                  "site-web",
+                  "app-do-organizador"
+                ]
+              }
+            ]
+          },
+          {
+          },
+          {
+            "tab": "Suporte"
           }
         ]
       }
