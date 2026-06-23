@@ -117,12 +117,38 @@
       },
       {
         "product": "Organizador",
-        "groups": [
+        "tabs": [
           {
-            "group": "Introdução",
-            "icon": "rocket",
-            "pages": [
-              "Organizador"
+            "tab": "Artigos",
+            "groups": [
+              {
+                "group": "Artigos",
+                "pages": [
+                  "organizador-artigos"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Atualizações",
+            "groups": [
+              {
+                "group": "Atualizações",
+                "pages": [
+                  "organizador-atualizacoes"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Suporte",
+            "groups": [
+              {
+                "group": "Suporte",
+                "pages": [
+                  "organizador-suporte"
+                ]
+              }
             ]
           }
         ]
