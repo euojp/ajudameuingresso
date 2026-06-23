@@ -26,9 +26,9 @@
   },
   "navigation": {
     "directory": "card",
-    "tabs": [
+    "products": [
       {
-        "tab": "Participantes",
+        "product": "Participante",
         "languages": [
           {
             "language": "pt-BR",
@@ -116,7 +116,7 @@
         ]
       },
       {
-        "tab": "Organizadores"
+        "product": "Organizador"
       }
     ]
   },
