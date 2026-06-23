@@ -134,9 +134,11 @@
             "tab": "Atualizações",
             "groups": [
               {
-                "group": "Atualizações",
+                "group": "Novidades",
+                "icon": "lightbulb",
                 "pages": [
-                  "organizador-atualizacoes"
+                  "site",
+                  "app"
                 ]
               }
             ]
