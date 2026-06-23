@@ -120,13 +120,11 @@
           },
           {
             "product": "Organizador",
-            "groups": [
+            "anchors": [
               {
-                "group": "Introdução",
-                "icon": "rocket",
-                "pages": [
-                  "Organizador"
-                ]
+                "anchor": "Explorar Eventos",
+                "icon": "ticket",
+                "href": "https://meuingresso.com.br/eventos"
               }
             ]
           }
