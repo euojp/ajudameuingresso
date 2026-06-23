@@ -19,11 +19,6 @@
   "styling": {
     "eyebrows": "breadcrumbs"
   },
-  "contextual": {
-    "options": [
-      "assistant"
-    ]
-  },
   "navigation": {
     "directory": "card",
     "products": [
