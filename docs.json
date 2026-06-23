@@ -48,7 +48,7 @@
                 "icon": "rocket",
                 "expanded": true,
                 "pages": [
-                  "introducao"
+                  "participante"
                 ]
               },
               {
@@ -193,7 +193,12 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/introducao",
+      "destination": "/participante",
+      "permanent": true
+    },
+    {
+      "source": "/introducao",
+      "destination": "/participante",
       "permanent": true
     }
   ]
