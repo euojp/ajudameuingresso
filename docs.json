@@ -117,39 +117,45 @@
       },
       {
         "product": "Organizador",
-        "tabs": [
+        "languages": [
           {
-            "tab": "Artigos",
-            "pages": [
-              "organizador",
+            "language": "pt-BR",
+            "default": true,
+            "tabs": [
               {
-                "group": "Artigos",
+                "tab": "Artigos",
                 "pages": [
-                  "organizador-artigos"
+                  "organizador",
+                  {
+                    "group": "Artigos",
+                    "pages": [
+                      "organizador-artigos"
+                    ]
+                  }
                 ]
-              }
-            ]
-          },
-          {
-            "tab": "Atualizações",
-            "groups": [
+              },
               {
-                "group": "Novidades",
-                "icon": "lightbulb",
-                "pages": [
-                  "site",
-                  "app"
+                "tab": "Atualizações",
+                "groups": [
+                  {
+                    "group": "Novidades",
+                    "icon": "lightbulb",
+                    "pages": [
+                      "site",
+                      "app"
+                    ]
+                  }
                 ]
-              }
-            ]
-          },
-          {
-            "tab": "Suporte",
-            "groups": [
+              },
               {
-                "group": "Suporte",
-                "pages": [
-                  "organizador-suporte"
+                "tab": "Suporte",
+                "groups": [
+                  {
+                    "group": "Suporte",
+                    "pages": [
+                      "organizador-suporte"
+                    ]
+                  }
                 ]
               }
             ]
