@@ -151,6 +151,10 @@ img.nav-logo {
   min-height: 0 !important;
 }
 
+.nav-dropdown-products-selector-trigger {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   img.nav-logo {
     height: 26px !important;
