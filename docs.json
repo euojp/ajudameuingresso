@@ -26,142 +26,109 @@
   },
   "navigation": {
     "directory": "card",
-    "products": [
+    "anchors": [
       {
-        "product": "Participante",
-        "languages": [
+        "anchor": "Publicar evento",
+        "products": [
           {
-            "language": "pt-BR",
-            "default": true,
-            "pages": [
+            "product": "Participante",
+            "languages": [
+              {
+                "language": "pt-BR",
+                "default": true,
+                "global": {
+                  "anchors": [
+                    {
+                      "anchor": "Explorar Eventos",
+                      "icon": "ticket",
+                      "href": "https://meuingresso.com.br/eventos"
+                    }
+                  ]
+                },
+                "pages": [
+                  {
+                    "group": "Introdução",
+                    "icon": "rocket",
+                    "expanded": true,
+                    "pages": [
+                      "introducao"
+                    ]
+                  },
+                  {
+                    "group": "Primeiros passos",
+                    "icon": "smartphone-charging",
+                    "pages": [
+                      "como-criar-uma-conta",
+                      "redefinicao-de-senha",
+                      "como-atualizar-meus-dados-cadastrais",
+                      "diferenca-entre-titular-da-compra-e-titular-do-ingresso"
+                    ]
+                  },
+                  {
+                    "group": "Compras e inscrições",
+                    "icon": "shopping-bag",
+                    "expanded": true,
+                    "pages": [
+                      "como-comprar-um-ingresso",
+                      "compra-para-terceiros",
+                      "como-usar-um-cupom-de-desconto",
+                      "como-saber-se-minha-compra-foi-concluida",
+                      "cancelamentos-e-reembolsos",
+                      "trocar-titularidade-do-ingresso"
+                    ]
+                  },
+                  {
+                    "group": "Pagamento",
+                    "icon": "credit-card",
+                    "pages": [
+                      "formas-de-pagamento",
+                      "meu-pagamento-esta-pendente-o-que-fazer",
+                      "meu-pagamento-foi-recusado-o-que-pode-ter-acontecido",
+                      "como-identificar-a-cobranca-da-meu-ingresso-no-extrato"
+                    ]
+                  },
+                  {
+                    "group": "Ingressos",
+                    "icon": "ticket",
+                    "pages": [
+                      "onde-encontro-meus-ingressos"
+                    ]
+                  },
+                  {
+                    "group": "Programa de Promotores",
+                    "icon": "megaphone",
+                    "expanded": true,
+                    "pages": [
+                      "promotores/como-funciona",
+                      "promotores/links-e-comissoes"
+                    ]
+                  },
+                  {
+                    "group": "Ajuda",
+                    "icon": "message-circle-question-mark",
+                    "expanded": true,
+                    "pages": [
+                      "ajuda/faq",
+                      "ajuda/pagamentos-e-repasses",
+                      "ajuda/politica-de-privacidade",
+                      "ajuda/termos-de-uso"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "product": "Organizador",
+            "groups": [
               {
                 "group": "Introdução",
                 "icon": "rocket",
-                "expanded": true,
                 "pages": [
-                  "introducao"
-                ]
-              },
-              {
-                "group": "Primeiros passos",
-                "icon": "smartphone-charging",
-                "pages": [
-                  "como-criar-uma-conta",
-                  "redefinicao-de-senha",
-                  "como-atualizar-meus-dados-cadastrais",
-                  "diferenca-entre-titular-da-compra-e-titular-do-ingresso"
-                ]
-              },
-              {
-                "group": "Compras e inscrições",
-                "icon": "shopping-bag",
-                "expanded": true,
-                "pages": [
-                  "como-comprar-um-ingresso",
-                  "compra-para-terceiros",
-                  "como-usar-um-cupom-de-desconto",
-                  "como-saber-se-minha-compra-foi-concluida",
-                  "cancelamentos-e-reembolsos",
-                  "trocar-titularidade-do-ingresso"
-                ]
-              },
-              {
-                "group": "Pagamento",
-                "icon": "credit-card",
-                "pages": [
-                  "formas-de-pagamento",
-                  "meu-pagamento-esta-pendente-o-que-fazer",
-                  "meu-pagamento-foi-recusado-o-que-pode-ter-acontecido",
-                  "como-identificar-a-cobranca-da-meu-ingresso-no-extrato"
-                ]
-              },
-              {
-                "group": "Ingressos",
-                "icon": "ticket",
-                "pages": [
-                  "onde-encontro-meus-ingressos"
-                ]
-              },
-            "anchors": [
-              {
-                "anchor": "Explorar Eventos",
-                "icon": "ticket",
-                "href": "https://meuingresso.com.br/eventos"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Organizador",
-        "tabs": [
-          {
-            "tab": "Artigos",
-            "global": {
-              "anchors": [
-                {
-                  "anchor": "Explorar Eventos",
-                  "icon": "ticket",
-                  "href": "https://meuingresso.com.br/eventos"
-                }
-              ]
-            },
-            "anchors": [
-              {
-                "anchor": "Publicar evento",
-                "icon": "calendar-plus",
-                "href": "https://meuingresso.com.br/cadastro"
-              }
-            ]
-          },
-          {
-            "tab": "Atualizações",
-            "groups": [
-              {
-                "group": "Atualizações",
-                "pages": [
-                  "site-web",
-                  "app-do-organizador"
+                  "Organizador"
                 ]
               }
             ]
-          }
-        ]
-      },
-      {
-        "product": "Organizador",
-        "tabs": [
-          {
-            "tab": "Artigos",
-            "anchors": [
-              {
-                "anchor": "Explorar Eventos",
-                "icon": "ticket",
-                "href": "https://meuingresso.com.br/eventos"
-              },
-              {
-                "anchor": "Publicar evento",
-                "icon": "calendar-plus",
-                "href": "https://meuingresso.com.br/cadastro"
-              }
-            ]
-          },
-          {
-            "tab": "Atualizações",
-            "groups": [
-              {
-                "group": "Atualizações",
-                "pages": [
-                  "site-web",
-                  "app-do-organizador"
-                ]
-              }
-            ]
-          },
-          {
-          },
-          {
-            "tab": "Suporte"
           }
         ]
       }
