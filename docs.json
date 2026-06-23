@@ -116,7 +116,16 @@
         ]
       },
       {
-        "product": "Organizador"
+        "product": "Organizador",
+        "groups": [
+          {
+            "group": "Introdução",
+            "icon": "rocket",
+            "pages": [
+              "comece-aqui"
+            ]
+          }
+        ]
       }
     ]
   },
