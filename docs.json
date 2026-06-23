@@ -32,7 +32,14 @@
         "languages": [
           {
             "language": "pt-BR",
-            "default": true
+            "default": true,
+            "anchors": [
+              {
+                "anchor": "Explorar Eventos",
+                "icon": "ticket",
+                "href": "https://meuingresso.com.br/eventos"
+              }
+            ]
           }
         ]
       },
