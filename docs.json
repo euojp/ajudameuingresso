@@ -42,14 +42,13 @@
                 }
               ]
             },
-            "groups": [
+            "pages": [
+              "introducao",
               {
                 "group": "Introdução",
                 "icon": "rocket",
                 "expanded": true,
-                "pages": [
-                  "introducao"
-                ]
+                "pages": []
               },
               {
                 "group": "Primeiros passos",
