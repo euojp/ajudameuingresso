@@ -76,6 +76,40 @@
                 ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "product": "Organizador",
+        "tabs": [
+          {
+            "tab": "Artigos",
+            "anchors": [
+              {
+                "anchor": "Explorar Eventos",
+                "icon": "ticket",
+                "href": "https://meuingresso.com.br/eventos"
+              },
+              {
+                "anchor": "Publicar evento",
+                "icon": "calendar-plus",
+                "href": "https://meuingresso.com.br/cadastro"
+              }
+            ]
+          },
+          {
+            "tab": "Atualizações",
+            "groups": [
+              {
+                "group": "Atualizações",
+                "pages": [
+                  "site-web",
+                  "app-do-organizador"
+                ]
+              }
+            ]
+          },
+          {
           },
           {
             "tab": "Suporte"
