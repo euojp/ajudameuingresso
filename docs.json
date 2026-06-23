@@ -33,15 +33,6 @@
           {
             "language": "pt-BR",
             "default": true,
-            "global": {
-              "anchors": [
-                {
-                  "anchor": "Explorar Eventos",
-                  "icon": "ticket",
-                  "href": "https://meuingresso.com.br/eventos"
-                }
-              ]
-            },
             "pages": [
               {
                 "group": "Introdução",
