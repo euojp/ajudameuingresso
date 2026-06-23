@@ -120,7 +120,8 @@
         "tabs": [
           {
             "tab": "Artigos",
-            "groups": [
+            "pages": [
+              "organizador",
               {
                 "group": "Artigos",
                 "pages": [
