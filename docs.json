@@ -124,7 +124,7 @@
                   {
                     "group": "Artigos",
                     "pages": [
-                      "organizador-artigos"
+                      "produtor/artigos"
                     ]
                   }
                 ]
@@ -136,8 +136,8 @@
                     "group": "Novidades",
                     "icon": "lightbulb",
                     "pages": [
-                      "site",
-                      "app"
+                      "produtor/atualizacoes/site",
+                      "produtor/atualizacoes/app"
                     ]
                   }
                 ]
@@ -148,7 +148,7 @@
                   {
                     "group": "Suporte",
                     "pages": [
-                      "organizador-suporte"
+                      "produtor/suporte"
                     ]
                   }
                 ]
@@ -194,6 +194,16 @@
     {
       "source": "/introducao",
       "destination": "/participante",
+      "permanent": true
+    },
+    {
+      "source": "/site",
+      "destination": "/produtor/atualizacoes/site",
+      "permanent": true
+    },
+    {
+      "source": "/app",
+      "destination": "/produtor/atualizacoes/app",
       "permanent": true
     }
   ]
