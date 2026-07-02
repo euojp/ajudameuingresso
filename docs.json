@@ -195,11 +195,6 @@
       "source": "/introducao",
       "destination": "/participante",
       "permanent": true
-    },
-    {
-      "source": "/organizador",
-      "destination": "/produtor",
-      "permanent": true
     }
   ]
 }
