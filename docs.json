@@ -111,7 +111,7 @@
         ]
       },
       {
-        "product": "Organizador",
+        "product": "Produtor",
         "languages": [
           {
             "language": "pt-BR",
@@ -120,7 +120,7 @@
               {
                 "tab": "Artigos",
                 "pages": [
-                  "organizador",
+                  "produtor",
                   {
                     "group": "Artigos",
                     "pages": [
@@ -194,6 +194,11 @@
     {
       "source": "/introducao",
       "destination": "/participante",
+      "permanent": true
+    },
+    {
+      "source": "/organizador",
+      "destination": "/produtor",
       "permanent": true
     }
   ]
